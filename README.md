@@ -73,7 +73,11 @@ A live demo of the Classroom Project can be accessed [here]([https://classroom-f
 <img width="1440" alt="Screenshot 2023-07-22 at 1 57 59 PM" src="https://github.com/pachauriyash/classroom-frontend/assets/86353193/b8f819df-8467-4831-8be1-4fb8889784a9">
 
 ## Demo Video
-[![Classroom Project Demo Video](https://github.com/pachauriyash/classroom-frontend/assets/86353193/6f64bfd4-7cc8-4e1f-a24b-47ce5696fd50.png)](https://github.com/pachauriyash/classroom-frontend/assets/86353193/6f64bfd4-7cc8-4e1f-a24b-47ce5696fd50)
+[![Classroom Project Demo Video](https://github.com/pachauriyash/classroom-frontend/assets/86353193/1ff502d5-ffac-41a4-8cbf-a7aa793e6d70.png)](https://github.com/pachauriyash/classroom-frontend/assets/86353193/1ff502d5-ffac-41a4-8cbf-a7aa793e6d70)
+
+
+
+
 
 
 
