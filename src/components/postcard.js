@@ -27,6 +27,13 @@ const PostCard = ({ user, post, onDeletePost }) => {
       <div className='postcard-content'>
         <p>{content}</p>
       </div>
+      <div className='post-file-links'>
+      {post.fileName && (
+        <a href={`${process.env.REACT_APP_PATH_URL}/files/${post.fileName}`} target="_blank" rel="noopener noreferrer" className="attachment-link">
+          View Attachment
+        </a>
+      )}
+      </div>
     </div>
   );
 };

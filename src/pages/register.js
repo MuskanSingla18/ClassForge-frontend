@@ -142,7 +142,7 @@ const Register = () => {
                         />
 
                         <label htmlFor="username">
-                            Username:
+                            Email:
                             <FontAwesomeIcon icon={faCheck} className={validName ? "valid" : "hide"} />
                             <FontAwesomeIcon icon={faTimes} className={validName || !user ? "hide" : "invalid"} />
                         </label>
