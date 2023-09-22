@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+# Live link for the project
+https://classroom-frontend-pachauriyash.vercel.app/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Classroom Project
 
-## Available Scripts
+Welcome to the Classroom Project! This project aims to provide a virtual classroom environment where teachers and students can interact and manage their classes efficiently.
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies](#technologies)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Live Demo](#live-demo)
+- [Screenshots](#screenshots)
+- [Demo Video](#demo-video)
+- [Support](#support)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Introduction
 
-### `npm test`
+The Classroom Project is a web application built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. It provides a platform for teachers and students to collaborate online, conduct classes, and manage assignments.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+- User authentication: Teachers and students can create accounts and log in securely with password hashing.
+- Create a class: Teachers can create new classes, assign class codes, and manage class details.
+- Join a class: Students can join classes using class codes provided by their teachers.
+- Announcement feeds: Each class has an announcement feed where participants can post updates, assignments, and important information.
+- Assignment submission: Coming soon!!
+- Class ownership: Teachers have special privileges and can manage the class effectively.
+- User-friendly interface: The platform offers an intuitive user interface for seamless interaction.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The Classroom Project is built using the following technologies:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Frontend: React.js, HTML, CSS
+- Backend: Node.js, Express.js
+- Database: MongoDB (with Mongoose)
+- User Authentication: Passport.js
 
-### `npm run eject`
+## Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To run the Classroom Project locally, follow these steps:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone the repository: `git clone https://github.com/pachauriyash/classroom-frontend.git`
+2. Clone the repository: `git clone https://github.com/pachauriyash/classroom-server.git`
+3. Install dependencies for both frontend and backend: `npm install`
+4. Set up your MongoDB connection string in the `.env` file both of frontend and backend.
+5. Start the development server: `npm start`
+6. Start the backend server: `node server.js`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Usage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+After installation, you can access the Classroom Project on `http://localhost:3000` in your web browser. Register as a teacher or a student to start using the application.
 
-## Learn More
+## Contributing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Live Demo
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+A live demo of the Classroom Project can be accessed [here]([https://classroom-frontend-pachauriyash.vercel.app/]).
 
-### Analyzing the Bundle Size
+## Screenshots
+<img width="1440" alt="Screenshot 2023-07-22 at 1 55 20 PM" src="https://github.com/pachauriyash/classroom-frontend/assets/86353193/defb0b97-05c0-4ef0-9940-47203537ced2">
+<img width="1440" alt="Screenshot 2023-07-22 at 1 56 34 PM" src="https://github.com/pachauriyash/classroom-frontend/assets/86353193/e2267fbd-8f33-4036-a95c-ad66dd55d6a0">
+<img width="1440" alt="Screenshot 2023-07-22 at 1 57 02 PM" src="https://github.com/pachauriyash/classroom-frontend/assets/86353193/6bc1c745-f48e-4be6-b859-faed12b32da1">
+<img width="1440" alt="Screenshot 2023-07-22 at 1 57 59 PM" src="https://github.com/pachauriyash/classroom-frontend/assets/86353193/b8f819df-8467-4831-8be1-4fb8889784a9">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Demo Video
+[![Classroom Project Demo Video](https://github.com/pachauriyash/classroom-frontend/assets/86353193/1ff502d5-ffac-41a4-8cbf-a7aa793e6d70.png)](https://github.com/pachauriyash/classroom-frontend/assets/86353193/1ff502d5-ffac-41a4-8cbf-a7aa793e6d70)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+## Support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you encounter any problems or need assistance with the Classroom Project, please contact me at yashpachauri.yp@gmail.com.
+
+Thank you for using the Classroom Project! Happy learning!
