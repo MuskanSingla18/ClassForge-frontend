@@ -8,6 +8,7 @@ import Register from './pages/register'
 import axios from 'axios';
 import ClassPage from './pages/classdetail';
 import ClassPageowned from './pages/classowned';
+//random comment to trigger new commit
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [user, setUser] = useState(null);
