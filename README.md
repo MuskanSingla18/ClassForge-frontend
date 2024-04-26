@@ -1,5 +1,5 @@
 # Live link for the project
-https://classroom-frontend-pachauriyash.vercel.app/
+https://classroom-frontend-eosin.vercel.app/
 
 # Classroom Project
 
